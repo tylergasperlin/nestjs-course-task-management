@@ -8,5 +8,7 @@ This application is provided as-is, as a part of the [NestJS Zero to Hero course
 
 
 ## CREATE MIGRAION
-npx typeorm migration:generate -n UserTaksTable -d src/migrations
-npm run build
+
+To automtatically run migrations assuming appmodules migrations run is set to true
+- npx typeorm migration:generate -n UserTaksTable -d src/migrations
+- npm run build
