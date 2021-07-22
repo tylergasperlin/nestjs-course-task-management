@@ -5,3 +5,8 @@
 ## NestJS Zero to Hero - Task Management Application
 
 This application is provided as-is, as a part of the [NestJS Zero to Hero course by Ariel Weinberger (Udemy)](https://codingly.cc/32wqFL3).
+
+
+## CREATE MIGRAION
+npx typeorm migration:generate -n UserTaksTable -d src/migrations
+npm run build
